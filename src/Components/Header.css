@@ -1,0 +1,64 @@
+.navbar {
+  width: 100%;
+  height: 7rem;
+  position: relative;
+  top: 0;
+  background-color: white;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  font-size: 1.6rem;
+  font-weight: 100;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.active-icon {
+  margin-right: 2rem;
+}
+
+.logo {
+  font-family: 'Tangerine', cursive;
+  font-size: 4rem;
+  margin-left: 2rem;
+  color: black;
+}
+
+@font-face {
+  font-family: "Tangerine";
+  src: local("Tangerine"),
+   url(./Tangerine-Regular.ttf) format("truetype");
+}
+
+@media all and (max-width: 768px) {
+  .nav-items {
+    display: none;
+  }
+  .menu-icon {
+    display: inline-block;
+  }
+  .logo {
+    font-size: 3rem;
+    margin-left: 1rem;
+  }
+  .icon {
+    font-size: 1rem;
+  }
+}
+
+ @media all and (max-width: 480px) {
+  .logo {
+    font-size: 2.5rem;
+    margin-left: none;
+  }
+  .icon {
+    font-size: .8rem;
+  }
+}
