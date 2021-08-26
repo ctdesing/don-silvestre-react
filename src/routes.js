@@ -5,7 +5,7 @@ import CatchAll from './Pages/CatchAll'
 const routes = [
   { path: '/', component: Home},
   { path: '/products/:id', component: Product },
-  { path: '/:{catchAll}', component: CatchAll }
+  { path: '/*', component: CatchAll }
 ]
 
 export default routes

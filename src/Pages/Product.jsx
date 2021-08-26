@@ -1,7 +1,7 @@
 import React from 'react'
 import './Product.css'
 import logo from '../assets/soap.jpg'
-import BaseButton from '../Components/BaseButton'
+import MainButton from '../Components/MainButton'
 
 const Product = ({name, price, description, ingredients, images}) => {
 
@@ -17,7 +17,7 @@ const Product = ({name, price, description, ingredients, images}) => {
             <span>$22.58USD</span>
           </p>
         </div>
-        <BaseButton label="Add to Cart" mode="outline"></BaseButton>
+        <MainButton label="Add to Cart" mode="outline"></MainButton>
         <p>
           También conocida como vitamina B3 y nicotinamida, la niacinamida es una
           vitamina soluble en agua que trabaja con las sustancias naturales de la

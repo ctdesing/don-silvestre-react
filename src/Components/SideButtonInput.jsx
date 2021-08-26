@@ -1,10 +1,13 @@
-import BaseButton from './BaseButton'
+import MainButton from './MainButton'
+import './SideButtonInput.css'
 
 const SideButtonInput = () => {
   return (
-    <div class="wrapper">
-      <input type="text" class="input" />
-      <BaseButton class="btn" mode="outline" label="Subscribe"/>
+    <div className="wrapper">
+      <input type="text" className="input" />
+      <MainButton className="btn" mode="outline" label="Subscribe"/>
     </div>
   )
 }
+
+export default SideButtonInput
