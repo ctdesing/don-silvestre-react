@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import './BaseButton.css'
+import './MainButton.css'
 
 const BaseButton = ({ link, to, mode, label, children }) => {
   const draw = () => {

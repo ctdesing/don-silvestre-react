@@ -1,4 +1,4 @@
-import SideButtonInput from '/src/components/SideButtonInput.vue'
+import SideButtonInput from './SideButtonInput'
 import { 
   faInstagram, 
   faCcVisa, 
@@ -7,25 +7,28 @@ import {
   faCcPaypal
   } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './Footer.css'
 
 const Footer = () => {
   const year = new Date().getFullYear();
 
   return (
-    <footer class="content-footer">
+    <footer className="content-footer">
       <SideButtonInput />
-      <div class="icons-flex">
-        <FontAwesomeIcon icon={faInstagram} class="instacon" />
+      <div className="icons-flex">
+        <FontAwesomeIcon icon={faInstagram} className="instacon" />
         <div>
-          <FontAwesomeIcon icon={faCcVisa} class="instacon" />
-          <FontAwesomeIcon icon={faCcMastercard} class="instacon" />
-          <FontAwesomeIcon icon={faCcAmex} class="instacon" />
-          <FontAwesomeIcon icon={faCcPaypal} class="instacon" />
+          <FontAwesomeIcon icon={faCcVisa} className="instacon" />
+          <FontAwesomeIcon icon={faCcMastercard} className="instacon" />
+          <FontAwesomeIcon icon={faCcAmex} className="instacon" />
+          <FontAwesomeIcon icon={faCcPaypal} className="instacon" />
         </div>
       </div>
-      <div class="copyright">
+      <div className="copyright">
         <p>© {year}, Don Silvestre.</p>
       </div>
     </footer>
   )
 }
+
+export default Footer

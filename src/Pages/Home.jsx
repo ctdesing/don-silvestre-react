@@ -1,7 +1,17 @@
 import React from 'react'
+import Modal from '../Components/Modal'
+import TestimonialGrid from '../Components/TestimonialGrid'
+import ProductsGrid from '../Components/ProductsGrid'
+import './Home.css'
 
 const Home = () => {
-  return <h1>Home</h1>
+  return (
+    <div id="home">
+      <Modal />
+      <TestimonialGrid />
+      <ProductsGrid />
+    </div>
+  )
 }
 
 export default Home

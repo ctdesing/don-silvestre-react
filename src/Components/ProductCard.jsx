@@ -1,9 +1,16 @@
+import './ProductCard.css'
+
 const ProductCard = ({ name, price, image }) => {
+  console.log(image)
+  
+
   return (
-    <div>
-      <img class="image" src={image} alt="image" />
-      <p class="name">{ name }</p>
-      <p class="price">${ price } USD</p>
+    <div className="product-card">
+      <img className="image" src={image} alt="product" />
+      <p className="name">{ name }</p>
+      <p className="price">${ price } USD</p>
     </div>
   )
 }
+
+export default ProductCard
