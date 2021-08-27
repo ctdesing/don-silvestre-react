@@ -1,7 +1,6 @@
 import React from 'react'
 import routes from '../routes'
-import { Route } from 'react-router-dom'
-import { Switch } from 'react-router-dom/cjs/react-router-dom.min'
+import { Route, Switch } from 'react-router-dom'
 
 const RouterView = () => {
   const compose = () => {

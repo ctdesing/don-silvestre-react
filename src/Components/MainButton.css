@@ -8,6 +8,7 @@
   border-radius: .2rem;
   display: inline-block;
   font-size: 1.2rem;
+  text-align: center;
 }
 
 .spaced {
@@ -29,7 +30,6 @@
   background-color: olive;
   border-color: transparent;
   color: white;
-  padding: .5rem 2.5rem;
 }
 
 .outline:hover,
