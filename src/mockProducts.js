@@ -1,3 +1,11 @@
+/* TODO:
+ * Add ID
+ * Add Remote Image
+ * Add description
+ * Add images for gallery
+*/
+
+
 const products = [
   {
     name: 'Jabon Lima',
