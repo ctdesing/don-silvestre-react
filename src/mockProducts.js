@@ -5,7 +5,6 @@
  * Add images for gallery
 */
 
-
 const products = [
   {
     name: 'Jabon Lima',
